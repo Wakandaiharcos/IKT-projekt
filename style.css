@@ -1,15 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap%27);
-.kave{
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap%27;%27');
+.kave {
     color: #1f5b25;
-    border: 1px solid #1f5b25;
+    border: 1px solid green;
     border-radius: 4px;
     margin-bottom: 1rem;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    background-color: white;
 }
+
 h1{
     font-family: 'Fredericka the Great', cursive;
     color: #1f5b25;
     text-align: center;
+}
+
+.kave:hover{
+    box-shadow: 0 0 5px #1f5b25;
+    cursor: pointer;
+}
+
+body{
+    background-color: #fbefdb;
+}
+
+nav{
+    background-color: #1f5b25;
+    padding: 20px;
+    position:fixed;
+    z-index: 1;
+
+}
+nav a{
+    color: white;
+    margin: 15px;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    font-size: 1.5em;
+}
+
+nav img{
+    width: 40px;
+}
+
+.banner{
+    background-image: url(./kave.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+
+footer{
+    background-color: #1f5b25;
+    color: white;
+}
+
+.ikonok{
+    width: 20px;
+    height: 20px;
+}
+
+#napiajánlat{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 24px;
+    top: 24px;
 }

@@ -9,34 +9,83 @@
     <title>Document</title>
 </head>
 <body>
+    <nav class="container-fluid">
+        <div class="row">
+            <div class="col-12"></div>
+                <a href="#"class="logo">Lucky</a>
+                    <img src="clover.svg" alt="">   
+                <a href="#">Főoldal</a>
+                <a href="#">Kávéfajták</a>
+                <a href="#">Sütemények</a>
+                <a href="#">Blog</a>
+    </div>
+    </nav>
+    <div class="banner"></div>
     <div class="container">
         <h1>Lucky kávézó</h1>
         <div class="row">
-            <div class="col-lg-4 kave">
-                <img src="kave-fajtak-1.jpg" alt="" class="img-fluid">
-                <h2>Espresso</h2>
+            <div class="col-lg-4">
+                <div class="kave">
+                    <img src="sunflower.svg" id="napiajánlat" alt="">
+                    <img src="kave-fajtak-1.jpg" alt="" class="img-fluid">
+                    <h2>Espresso</h2>
+                </div>
             </div>
-            <div class="col-lg-4 kave">
-                <img src="kave-fajtak-2.jpg" alt="" class="img-fluid">
-                <h2>Espresso</h2>
+            <div class="col-lg-4">
+                <div  class="kave">
+                    <img src="kave-fajtak-2.jpg" alt="" class="img-fluid">
+                    <h2>Americano</h2>
+                </div>
             </div>
-            <div class="col-lg-4 kave">
-                <img src="kave-fajtak-3.jpg" alt="" class="img-fluid">
-                <h2>Espresso</h2>
+            <div class="col-lg-4">
+                <div class="kave">
+                    <img src="kave-fajtak-3.jpg" alt="" class="img-fluid">
+                    <h2>Cappuccino</h2>
+                </div>
             </div>
-            <div class="col-lg-4 kave">
-                <img src="kave-fajtak-4.jpg" alt="" class="img-fluid">
-                <h2>Espresso</h2>
+            <div class="col-lg-4">
+                <div class="kave">
+                    <img src="kave-fajtak-4.jpg" alt="" class="img-fluid">
+                    <h2>Latte Macchiato</h2>
+                </div>
             </div>
-            <div class="col-lg-4 kave">
-                <img src="kave-fajtak-5.jpg" alt="" class="img-fluid">
-                <h2>Espresso</h2>
+            <div class="col-lg-4">
+                <div class="kave">
+                    <img src="kave-fajtak-5.jpg" alt="" class="img-fluid">
+                    <h2>Espresso</h2>
+                </div>
             </div>
-            <div class="col-lg-4 kave">
-                <img src="kave-fajtak-6.jpg" alt="" class="img-fluid">
-                <h2>Espresso</h2>
+            <div class="col-lg-4">
+                <div class="kave">
+                    <img src="kave-fajtak-6.jpg" alt="" class="img-fluid">
+                    <h2>Espresso</h2>
+                </div>
             </div>
         </div>
     </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 offset-lg-1">
+                    <h2>Kapcsolat</h2>
+                    <ul>
+                        <li><img class="ikonok" src="email.svg" alt="">Lucky kávézó</li>
+                        <li><img class="ikonok" src="kukac.svg" alt="">lucky@kavezo</li>
+                        <li><img class="ikonok" src="telefon.svg" alt="">+36-1-555-55-55</li>
+                    </ul>
+                <div class="col-sm6 col-lg-4">
+                    <h2>Kave magazin</h2>
+                    <p>Iratkozzon fel</p>
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="button-addon2" id="email">
+                            <div class="input-group-append">
+                                <button class="btn btn-success" type="button" id="button-addon2" onclick="feliratkozas();">Feliratkozom</button>
+                              </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
 </body>
 </html>
